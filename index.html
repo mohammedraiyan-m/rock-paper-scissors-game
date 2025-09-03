@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors Game</title>
-</head>
-<body>
-    
-    <script src="script.js"> </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="title-name">Rock Paper Scissors</h1>
+      <p id="para">First to 5 points wins!</p>
+    </div>
+
+    <div class="choices">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+
+    <div class="images">
+      <img id="rock-img" src="./images/rock.png" alt="Rock" />
+      <img id="paper-img" src="./images/paper.png" alt="Paper" />
+      <img
+        id="scissors-img"
+        class="imgthree"
+        src="./images/scissors.png"
+        alt="Scissors"
+      />
+    </div>
+
+    <div class="result" id="result">Make your choice!</div>
+
+    <div class="score" id="score">You: 0 | Computer: 0</div>
+
+    <div class="winner" id="winner"></div>
+
+    <div id="reset-btn">
+      <button id="reset">reset</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>

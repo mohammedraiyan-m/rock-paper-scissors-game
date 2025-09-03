@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(191, 131, 209);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img{
+    height: 150px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding-bottom: 50px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.imgthree{
+    height: 180px;
+}
+#reset-btn{
+    display: flex;
+    justify-content: center;
+}
